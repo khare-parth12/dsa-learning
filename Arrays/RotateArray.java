@@ -1,0 +1,19 @@
+public class RotateArray{
+    public static void rev(int[] nums, int left, int right){
+        int temp;
+        while (left<right){
+            temp = nums[left];
+            nums[left] = nums[right];
+            nums[right] = temp;
+            left++;
+            right--;
+        }
+    }
+
+        public void rotate(int[] nums, int k) {
+        k = k % nums.length;
+        rev(nums, 0, nums.length - 1);
+        rev(nums, 0, k - 1);
+        rev(nums, k, nums.length - 1);
+    }
+}
