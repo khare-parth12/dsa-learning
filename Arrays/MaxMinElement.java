@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MaxMinElement {
     public static int sumOfDigits(int num) {
         num = Math.abs(num);
