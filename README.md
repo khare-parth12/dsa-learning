@@ -8,6 +8,7 @@ This repository is used for learning Data Structures and Algorithms using Python
 - Java
 
 ## What is DSA?
+
 Data Structures are ways to organize and store data efficiently. Algorithms are step-by-step procedures to solve problems using that data.
 
 ## Core Data Structures
