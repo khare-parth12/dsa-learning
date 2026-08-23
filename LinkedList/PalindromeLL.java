@@ -1,11 +1,12 @@
 // Leetcode 234
 
-package Linked List;
+package LinkedList;
+import java.util.ArrayList;
 
 public class PalindromeLL {
     public boolean isPalindrome(ListNode head) {
         ListNode left = head;
-        List<Integer> numList = new ArrayList<>();
+        ArrayList<Integer> numList = new ArrayList<>();
 
         while(left != null){
             numList.add(left.val);
