@@ -9,7 +9,6 @@ public class RemoveDuplicates {
         if (head.val == head.next.val)
             head.next = head.next.next;
 
-        ListNode temp = null;
         ListNode left = head;
         while (left != null && left.next != null) {
             if (left.val != left.next.val)
