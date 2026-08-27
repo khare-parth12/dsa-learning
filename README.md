@@ -19,6 +19,7 @@ Data Structures are ways to organize and store data efficiently. Algorithms are 
 - Basic Operations: access, update, insert, delete, traverse, search
 
 ### 2. String
+
 - Definition: A sequence of characters used to store and process text.
 - Structure Representation: "hello"
 - Basic Operations: length, concatenate, substring, compare, search
