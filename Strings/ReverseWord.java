@@ -1,5 +1,3 @@
-package Strings;
-
 public class ReverseWord {
     public static String reverseString(String s){
         if (s == null || s.isEmpty()) return s;

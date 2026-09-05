@@ -1,5 +1,3 @@
-package Strings;
-
 public class CharFrequency {
     public static java.util.Map<Character, Integer> frequencyOfChar(String s){
         if (s == null || s.isEmpty()) return new java.util.HashMap<>();

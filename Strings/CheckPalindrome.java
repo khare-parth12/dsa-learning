@@ -1,5 +1,3 @@
-package Strings;
-
 public class CheckPalindrome {
     public static boolean isPalindrome(String s){
         if (s == null) return false;

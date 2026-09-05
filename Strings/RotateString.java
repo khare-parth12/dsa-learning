@@ -1,7 +1,5 @@
 // Leetcode 796
 
-package Strings;
-
 import java.util.Arrays;
 
 public class RotateString {
