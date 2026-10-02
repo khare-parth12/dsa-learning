@@ -16,7 +16,7 @@ class Solution(object):
                             Sum += mat[r][c]
 
                 answer[i][j] = Sum
-
+ 
         return answer
 
     # from (0,0) index
