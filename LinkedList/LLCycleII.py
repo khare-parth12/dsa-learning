@@ -8,18 +8,12 @@ class ListNode(object):
 
 class Solution(object):
     def detectCycle(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
         cycle_node = {}
         slow = head
-        #fast = head
 
         while slow != None and slow.next != None:
             cycle_node[slow] = slow.next
             slow = slow.next
-            #fast = fast.next.next
 
             if slow.next in cycle_node.keys(): return slow.next
 
